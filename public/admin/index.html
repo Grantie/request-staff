@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/admin/script.js" defer type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="none" hidden>
+            <h1>
+                No Active Request
+            </h1>
+            <p>
+                There isn't an active request right now!
+            </p>
+        </div>
+        <div class="active" hidden>
+            <h1>
+                Active Request
+            </h1>
+            <p>
+                Please enter your password to dismiss this request!
+            </p>
+            <button class="enterPassBtn">
+                Cancel Request
+            </button>
+        </div>
+    </div>
+
+    <audio src="/chime.mp3" class="chime" loop></audio>
+</body>
+</html>

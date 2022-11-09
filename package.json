@@ -1,0 +1,23 @@
+{
+  "name": "request-staff",
+  "version": "1.0.0",
+  "description": "This is a little fun website for someone to press a button on one device then it notified the other device. Using firebase!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TikoGrantYT/request-staff.git"
+  },
+  "keywords": [
+    "fun",
+    "request"
+  ],
+  "author": "Grant Garbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TikoGrantYT/request-staff/issues"
+  },
+  "homepage": "https://github.com/TikoGrantYT/request-staff#readme"
+}
